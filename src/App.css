@@ -1,6 +1,6 @@
 :root {
-  --theme-color: rgba(100,100,120,0.3);
-  --main-text-color: rgba(150,150,180,0.6);
+  --theme-color: rgba(100,100,120,0.6);
+  --main-text-color: rgba(230, 237, 240, 0.7);
   --theme-font: "Times New Roman", Times, serif;
 }
 
@@ -50,17 +50,31 @@
 }
 
 .main-text {
-  margin: 20% auto;
+  margin: 5% auto;
   background: var(--main-text-color);
   font-size: calc(10px + 2vmin);
   font-family: var(--theme-font);
-  box-shadow: 2px 2px 4px black;
+  border-radius: 5px;
+  overflow-y:auto;
+  height:80%;
+  width:70%;
+  scrollbar-color: var(--theme-color) rgba(0,0,0,0);
+  scrollbar-width: thin;
+}
+
+.main-text::-webkit-scrollbar {
+  width: 7.5px;
   border-radius: 5px;
 }
 
-.scroll {
-  overflow-y: 'auto';
-  height: 90%;
+.main-text::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0);
+}
+
+.main-text::-webkit-scrollbar-thumb {
+  background: var(--theme-color);
+  border-radius: 2.5px;
+
 }
 
 body, html {
@@ -80,8 +94,14 @@ height: 100%;
   background-color: #000000;
 }
 
+.registry-modal .modal-content {
+  background-color: rgba(240,240,240,0.9);
+  font-family: var(--theme-font);
+  box-shadow: 2px 2px 4px black;
+}
+
 .contact-modal .modal-content {
-  background-color: rgba(200,200,220,0.7);
+  background-color: rgba(240,240,240,0.9);
   font-family: var(--theme-font);
   box-shadow: 2px 2px 4px black;
 }
