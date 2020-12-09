@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/wedding-website/static/css/main.d3d88746.chunk.css",
-    "main.js": "/wedding-website/static/js/main.0a769f83.chunk.js",
-    "main.js.map": "/wedding-website/static/js/main.0a769f83.chunk.js.map",
-    "runtime-main.js": "/wedding-website/static/js/runtime-main.b61e2d11.js",
-    "runtime-main.js.map": "/wedding-website/static/js/runtime-main.b61e2d11.js.map",
+    "main.css": "/wedding-website/static/css/main.5f5e0a1b.chunk.css",
+    "main.js": "/wedding-website/static/js/main.c6bcbda2.chunk.js",
+    "main.js.map": "/wedding-website/static/js/main.c6bcbda2.chunk.js.map",
+    "runtime-main.js": "/wedding-website/static/js/runtime-main.f9f1fec7.js",
+    "runtime-main.js.map": "/wedding-website/static/js/runtime-main.f9f1fec7.js.map",
     "static/css/2.1a02f21c.chunk.css": "/wedding-website/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.cb1b1240.chunk.js": "/wedding-website/static/js/2.cb1b1240.chunk.js",
-    "static/js/2.cb1b1240.chunk.js.map": "/wedding-website/static/js/2.cb1b1240.chunk.js.map",
-    "static/js/3.3f308502.chunk.js": "/wedding-website/static/js/3.3f308502.chunk.js",
-    "static/js/3.3f308502.chunk.js.map": "/wedding-website/static/js/3.3f308502.chunk.js.map",
+    "static/js/2.a482f806.chunk.js": "/wedding-website/static/js/2.a482f806.chunk.js",
+    "static/js/2.a482f806.chunk.js.map": "/wedding-website/static/js/2.a482f806.chunk.js.map",
+    "static/js/3.9fa9198b.chunk.js": "/wedding-website/static/js/3.9fa9198b.chunk.js",
+    "static/js/3.9fa9198b.chunk.js.map": "/wedding-website/static/js/3.9fa9198b.chunk.js.map",
     "index.html": "/wedding-website/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/wedding-website/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.d3d88746.chunk.css.map": "/wedding-website/static/css/main.d3d88746.chunk.css.map",
-    "static/js/2.cb1b1240.chunk.js.LICENSE.txt": "/wedding-website/static/js/2.cb1b1240.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/wedding-website/static/media/logo.6ce24c58.svg",
-    "static/media/ocean_pacific_grove.5742efcd.jpg": "/wedding-website/static/media/ocean_pacific_grove.5742efcd.jpg"
+    "static/css/main.5f5e0a1b.chunk.css.map": "/wedding-website/static/css/main.5f5e0a1b.chunk.css.map",
+    "static/js/2.a482f806.chunk.js.LICENSE.txt": "/wedding-website/static/js/2.a482f806.chunk.js.LICENSE.txt",
+    "static/media/ocean_pacific_grove.23a64b3f.jpg": "/wedding-website/static/media/ocean_pacific_grove.23a64b3f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b61e2d11.js",
+    "static/js/runtime-main.f9f1fec7.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.cb1b1240.chunk.js",
-    "static/css/main.d3d88746.chunk.css",
-    "static/js/main.0a769f83.chunk.js"
+    "static/js/2.a482f806.chunk.js",
+    "static/css/main.5f5e0a1b.chunk.css",
+    "static/js/main.c6bcbda2.chunk.js"
   ]
 }
