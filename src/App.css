@@ -1,0 +1,88 @@
+:root {
+  --theme-color: rgba(100,100,120,0.3);
+  --main-text-color: rgba(150,150,180,0.6);
+  --theme-font: "Times New Roman", Times, serif;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.color-nav {
+  background: var(--theme-color);
+  font-family: var(--theme-font);
+}
+
+.main-text {
+  margin: 20% auto;
+  background: var(--main-text-color);
+  font-size: calc(10px + 2vmin);
+  font-family: var(--theme-font);
+  box-shadow: 2px 2px 4px black;
+  border-radius: 5px;
+}
+
+.scroll {
+  overflow-y: 'auto';
+  height: 90%;
+}
+
+body, html {
+height: 100%;
+}
+
+.bg {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.description-overlay {
+  background-position: center;
+  background-color: #000000;
+}
+
+.contact-modal .modal-content {
+  background-color: rgba(200,200,220,0.7);
+  font-family: var(--theme-font);
+  box-shadow: 2px 2px 4px black;
+}
+
