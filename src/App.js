@@ -24,7 +24,11 @@ class Description extends Component {
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {display_contact_info : false, display_registry_info : false}
+    this.state = {
+      display_contact_info : false,
+      display_registry_info : false,
+      display_photos : false
+    }
   }
 
   render() {
@@ -37,6 +41,7 @@ export default class App extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link onClick={() => this.openRegistryInfo()}>Registry</Nav.Link>
+              <Nav.Link onClick={() => this.openPhotos()}>Photos</Nav.Link>
               <Nav.Link onClick={() => this.openContactInfo()}>Contact Info</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -63,10 +68,19 @@ export default class App extends Component {
           </Modal.Body>
         </Modal>
 
+        <Modal
+            show={this.state.display_photos} onHide={() => this.closePhotos()}>
+          <Modal.Header closeButton>
+            <Modal.Title>Wedding Photos</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+          <a href="https://photos.app.goo.gl/MTsWPz21byThiKfq7" target="_blank" rel="noopener noreferrer">Google Photos Link</a>
+          </Modal.Body>
+        </Modal>
+
         <div className="main-text">
         <Description/>
         </div>
-
       </div>
     </div>
   );
@@ -87,5 +101,14 @@ export default class App extends Component {
   closeRegistryInfo() {
     this.setState({display_registry_info : false});
   }
+
+  openPhotos() {
+    this.setState({display_photos : true});
+  }
+
+  closePhotos() {
+    this.setState({display_photos : false});
+  }
+
 
 }
