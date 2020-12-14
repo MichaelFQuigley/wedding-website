@@ -13,9 +13,17 @@ class Description extends Component {
   render() {
     return (
         <div>
-      <p>Hi All!</p>
+      <h1>We Got Married!</h1>
       <hr/>
-      We got married in a small ceremony on December 10th, 2020.
+      On December 10th, 2020 Maria McCauley and Michael Quigley were married in a private ceremony in Carmel, California.
+      <hr/>
+
+      <p>Dear Family and Friends,</p>
+      <p>When we began planning our wedding in February we could not have anticipated the unprecedented nature of the year before us. After months of planning and replanning we decided to exchange our vows in a simple and intimate ceremony near our home in Pacific Grove, California. </p>
+
+      <p>Although we did not have the wedding we initially envisioned, and the absence of our families and friends was deeply felt, we are beyond thrilled to be starting our married life. We are looking forward to planning a large reception to celebrate our love and marriage once we can all travel and be together safely. We will provide updates here when we have more information regarding a celebration.</p>
+
+      <p>Maria and Michael Quigley</p>
       </div>
     )
   }
@@ -47,7 +55,7 @@ export default class App extends Component {
           </Navbar.Collapse>
         </Navbar>
 
-        <Modal className="contact-modal"
+        <Modal className="site-modal"
             show={this.state.display_contact_info} onHide={() => this.closeContactInfo()}>
           <Modal.Header closeButton>
             <Modal.Title>Contact Info</Modal.Title>
@@ -58,7 +66,7 @@ export default class App extends Component {
           </Modal.Body>
         </Modal>
 
-        <Modal className="registry-modal"
+        <Modal className="site-modal"
             show={this.state.display_registry_info} onHide={() => this.closeRegistryInfo()}>
           <Modal.Header closeButton>
             <Modal.Title>Registry</Modal.Title>
@@ -68,7 +76,7 @@ export default class App extends Component {
           </Modal.Body>
         </Modal>
 
-        <Modal
+        <Modal className="site-modal"
             show={this.state.display_photos} onHide={() => this.closePhotos()}>
           <Modal.Header closeButton>
             <Modal.Title>Wedding Photos</Modal.Title>

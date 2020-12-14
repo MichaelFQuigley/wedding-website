@@ -95,13 +95,7 @@ height: 100%;
   background-color: #000000;
 }
 
-.registry-modal .modal-content {
-  background-color: rgba(240,240,240,0.9);
-  font-family: var(--theme-font);
-  box-shadow: 2px 2px 4px black;
-}
-
-.contact-modal .modal-content {
+.site-modal .modal-content {
   background-color: rgba(240,240,240,0.9);
   font-family: var(--theme-font);
   box-shadow: 2px 2px 4px black;
