@@ -72,7 +72,7 @@ export default class App extends Component {
             <Modal.Title>Registry</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-          We are registered at: <a href="https://www.amazon.com/wedding/michael-quigley-maria-mccauley--december-2020/registry/107KFD7EQ1118">Amazon</a>
+          We are registered at: <a href="https://www.myregistry.com/wedding-registry/maria-quigley-and-michael-quigley-pacific-grove-ca/2673228/giftlist">myregistry.com</a>
           </Modal.Body>
         </Modal>
 
