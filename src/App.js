@@ -19,7 +19,7 @@ class Description extends Component {
       <hr/>
 
       <p>Dear Family and Friends,</p>
-      <p>When we began planning our wedding in February we could not have anticipated the unprecedented nature of the year before us. After months of planning and replanning we decided to exchange our vows in a simple and intimate ceremony near our home in Pacific Grove, California. </p>
+      <p>When we began planning our wedding in February we could not have anticipated the unprecedented nature of the year before us. After months of planning and replanning we decided to exchange our vows in a simple and intimate ceremony near where we lived in Pacific Grove, California. </p>
 
       <p>Although we did not have the wedding we initially envisioned, and the absence of our families and friends was deeply felt, we are beyond thrilled to be starting our married life. We are looking forward to visiting with family and friends throughout the year.</p>
 
