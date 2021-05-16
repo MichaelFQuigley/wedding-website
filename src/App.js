@@ -21,7 +21,7 @@ class Description extends Component {
       <p>Dear Family and Friends,</p>
       <p>When we began planning our wedding in February we could not have anticipated the unprecedented nature of the year before us. After months of planning and replanning we decided to exchange our vows in a simple and intimate ceremony near our home in Pacific Grove, California. </p>
 
-      <p>Although we did not have the wedding we initially envisioned, and the absence of our families and friends was deeply felt, we are beyond thrilled to be starting our married life. We are looking forward to planning a large reception to celebrate our love and marriage once we can all travel and be together safely. We will provide updates here when we have more information regarding a celebration.</p>
+      <p>Although we did not have the wedding we initially envisioned, and the absence of our families and friends was deeply felt, we are beyond thrilled to be starting our married life. We are looking forward to visiting with family and friends throughout the year.</p>
 
       <p>Maria and Michael Quigley</p>
       </div>
@@ -48,7 +48,6 @@ export default class App extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link onClick={() => this.openRegistryInfo()}>Registry</Nav.Link>
               <Nav.Link onClick={() => this.openPhotos()}>Photos</Nav.Link>
               <Nav.Link onClick={() => this.openContactInfo()}>Contact Info</Nav.Link>
             </Nav>
